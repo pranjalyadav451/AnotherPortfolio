@@ -2,5 +2,18 @@
 @import "./abstracts/variables";
 @import "./abstracts/mixins";
 
-@import "./base/base";
+
 @import "./base/fonts";
+@import "./base/reset";
+
+@import "./components/alternate-bg";
+@import "./components/name-svg";
+
+
+
+@import "./components/nav-wrapper";
+@import "./components/section-s1";
+@import "./components/main-wrapper";
+@import "./components/left-column";
+@import "./components/right-column";
+@import "./components/footer";
