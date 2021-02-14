@@ -92,6 +92,12 @@ body {
   background-color: var(--main-bg-color1);
 }
 
+@media (min-width: 1050px) {
+  body {
+    padding: 0 3rem;
+  }
+}
+
 .nav-wrapper {
   position: fixed;
   top: 0;
@@ -116,7 +122,7 @@ body {
 }
 
 .nav-wrapper .logo-wrapper {
-  padding-left: 3rem;
+  padding-left: 1.5rem;
 }
 
 .nav-wrapper .nav-links-wrapper {
