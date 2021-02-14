@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: $main-text;
+  color: var(--main-text);
   font-family: "IBM Plex Sans";
 }
 
@@ -15,29 +15,30 @@ li {
 }
 
 h1 {
-  font-size: $h1-size;
+  font-size: var(--h1-size);
 }
 
 h2 {
-  font-size: $h2-size;
+  font-size: var(--h2-size);
 }
 
 h3 {
-  font-size: $h3-size;
+  font-size: var(--h3-size);
 }
 
 h4 {
-  font-size: $h4-size;
+  font-size: var(--h4-size);
 }
 
 h5 {
-  font-size: $h5-size;
+  font-size: var(--h5-size);
 }
 
 h6 {
-  font-size: $h6-size;
+  font-size: var(--h6-size);
 }
 
-p {
-  font-size: $p-size;
+p,
+li {
+  font-size: var(--p-size);
 }

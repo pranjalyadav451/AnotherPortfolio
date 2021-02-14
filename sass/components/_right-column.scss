@@ -1,19 +1,7 @@
 .right-column {
-  background: $main-bg-color2;
-  width: 100%;
-  height: 100%;
+  grid-area: right-column;
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  #profile-pic {
-    background-image: url("../../dist/images/profile_pic.svg");
-    width: 80%;
-    height: 60%;
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: absolute;
-  }
-
+  padding: 3rem;
+  padding-bottom: 0rem;
+  // border: 5px solid black;
 }

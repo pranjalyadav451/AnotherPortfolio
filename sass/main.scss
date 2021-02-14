@@ -1,19 +1,28 @@
-@import "./abstracts/functions";
-@import "./abstracts/variables";
-@import "./abstracts/mixins";
-
-
 @import "./base/fonts";
+//these two store variables
+@import "./base/root";
+@import "./base/globals";
+
+//reset is just simple resets for paddings and margins
 @import "./base/reset";
 
-@import "./components/alternate-bg";
-@import "./components/name-svg";
+//these are reusable codes for reponsiveness and other things
+@import "./base/mixins";
+@import "./base/functions";
 
+
+@import "./components/body";
 
 
 @import "./components/nav-wrapper";
-@import "./components/section-s1";
 @import "./components/main-wrapper";
 @import "./components/left-column";
 @import "./components/right-column";
+@import "./components/right-1";
+
+@import "./components/skills-wrapper";
+
+@import "./components/projects-wrapper";
+
+
 @import "./components/footer";
