@@ -15,7 +15,7 @@
     width: $large-screen-width;
   }
 
-  // border:5px solid green;
+  border:5px solid green;
 }
 
 #project-list {
@@ -49,7 +49,7 @@
       margin-top: auto;
       margin-bottom: 1rem;
       display: flex;
-      justify-content: space-around;
+      justify-content: space-evenly;
       width: 100%;
 
       .btn {
