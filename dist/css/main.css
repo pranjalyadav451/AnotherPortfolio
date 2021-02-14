@@ -320,7 +320,6 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  border: 5px solid green;
 }
 
 #projects-wrapper h1 {
