@@ -97,7 +97,7 @@ body {
   left: 0;
   overflow: hidden;
   height: 50px;
-  width: 90%;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -109,10 +109,13 @@ body {
           align-items: center;
   z-index: 100;
   background-color: var(--main-bg-color1);
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 .nav-wrapper .logo-wrapper {
-  margin-left: 2rem;
+  padding-left: 2rem;
 }
 
 .nav-wrapper .nav-links-wrapper {
@@ -120,6 +123,7 @@ body {
 }
 
 .nav-wrapper .nav-links-wrapper ul {
+  overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -132,15 +136,12 @@ body {
 }
 
 .nav-wrapper .nav-links-wrapper ul li {
-  margin-right: 1rem;
+  padding-right: 1rem;
 }
 
 @media (min-width: 2000px) {
   .nav-wrapper {
     width: 2000px;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
   }
 }
 

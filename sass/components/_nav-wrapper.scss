@@ -4,27 +4,32 @@
   left: 0;
   overflow: hidden;
   height: 50px;
-  width: 90%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 100;
   background-color: var(--main-bg-color1);
 
+
+  left: 50%;
+  transform: translateX(-50%);
+
   .logo-wrapper {
-    margin-left: 2rem;
+    padding-left: 2rem;
   }
 
   .nav-links-wrapper {
     margin-right: 1rem;
 
     ul {
+      overflow: hidden;
       display: flex;
       justify-content: space-evenly;
       align-items: center;
 
       li {
-        margin-right: 1rem;
+        padding-right: 1rem;
       }
     }
   }
@@ -33,7 +38,5 @@
 @media (min-width:$large-screen-width) {
   .nav-wrapper {
     width: $large-screen-width;
-    left: 50%;
-    transform: translateX(-50%);
   }
 }
