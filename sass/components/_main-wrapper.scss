@@ -5,7 +5,7 @@
 .main-wrapper {
   display: grid;
   width: fit-content;
-  min-height: 600px;
+  // min-height: 600px;
   width: 100%;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "left-column right-column";
@@ -21,7 +21,7 @@
 @media (max-width:$small-screen-width) {
   .main-wrapper {
     width: 100%;
-    min-height: 300px;
+    // min-height: 300px;
     grid-template-columns: 1fr;
     grid-template-areas: "left-column"
       "right-column";
