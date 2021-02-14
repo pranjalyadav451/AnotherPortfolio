@@ -18,6 +18,12 @@
   --p-size: 1rem;
 }
 
+@media (max-width: 800px) {
+  :root {
+    font-size: 14px;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -66,7 +72,7 @@ li {
 }
 
 html {
-  height: 100%;
+  min-height: 100%;
   width: 100%;
 }
 
@@ -134,9 +140,9 @@ body {
   padding-right: 1rem;
 }
 
-@media (min-width: 2000px) {
+@media (min-width: 1600px) {
   .nav-wrapper {
-    width: 2000px;
+    width: 1600px;
   }
 }
 
@@ -157,9 +163,9 @@ body {
   background: var(--main-bg-color1);
 }
 
-@media screen and (min-width: 2000px) {
+@media screen and (min-width: 1600px) {
   .main-wrapper {
-    width: 2000px;
+    width: 1600px;
   }
 }
 
@@ -177,7 +183,7 @@ body {
   -ms-grid-column: 1;
   grid-area: left-column;
   width: 100%;
-  padding: 3rem;
+  padding: 1.5rem;
   padding-bottom: 0rem;
 }
 
@@ -186,12 +192,12 @@ body {
   -ms-grid-column: 2;
   grid-area: right-column;
   position: relative;
-  padding: 3rem;
+  padding: 1.5rem;
   padding-bottom: 0rem;
 }
 
 #profile-pic {
-  padding: 1rem;
+  padding: 1.5rem;
   background-color: #171922;
   border-radius: 5px;
   display: -webkit-box;
@@ -223,8 +229,8 @@ body {
 
 @media (max-width: 400px) {
   #profile-pic img {
-    width: 260px;
-    height: 180px;
+    width: 250px;
+    height: 150px;
   }
 }
 
@@ -321,9 +327,9 @@ body {
   padding-bottom: 1.5rem;
 }
 
-@media (min-width: 2000px) {
+@media (min-width: 1600px) {
   #projects-wrapper {
-    width: 2000px;
+    width: 1600px;
   }
 }
 
@@ -352,8 +358,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 300px;
-  height: 400px;
+  width: 250px;
+  height: 350px;
   background-color: var(--main-bg-color2);
   border-radius: 5px;
   margin: 1.5rem 0rem;

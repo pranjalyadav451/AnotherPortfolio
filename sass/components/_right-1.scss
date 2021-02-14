@@ -1,8 +1,9 @@
 #profile-pic {
-  padding: 1rem;
+  padding: 1.5rem;
   background-color: #171922;
   border-radius: 5px;
   display: flex;
+
 
 
   img {
@@ -22,8 +23,8 @@
     }
 
     @media (max-width:400px) {
-      width: 260px;
-      height: 180px;
+      width: 250px;
+      height: 150px;
     }
   }
 }
