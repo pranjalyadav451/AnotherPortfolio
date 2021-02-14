@@ -237,7 +237,7 @@ body {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   margin-right: auto;
-  width: 80%;
+  width: 100%;
   border-radius: 5px;
   background-color: var(--main-bg-color2);
 }
@@ -268,7 +268,7 @@ body {
 }
 
 #social-links {
-  width: 80%;
+  width: 100%;
   min-height: 2rem;
   padding: 1rem 0rem;
   display: -webkit-box;
