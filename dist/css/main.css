@@ -197,6 +197,10 @@ body {
   padding-bottom: 0rem;
 }
 
+#left-1 h1 {
+  font-weight: 800;
+}
+
 .right-column {
   -ms-grid-row: 1;
   -ms-grid-column: 2;
