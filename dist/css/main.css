@@ -376,7 +376,7 @@ body {
 }
 
 #project-list .project img {
-  width: 300;
+  width: 100%;
   height: 60%;
   -o-object-fit: contain;
      object-fit: contain;
