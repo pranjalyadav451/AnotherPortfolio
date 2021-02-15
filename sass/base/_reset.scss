@@ -2,8 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: var(--main-text);
-  font-family: "IBM Plex Sans";
   font-weight: $font-weight-regular;
 }
 
@@ -42,4 +40,16 @@ h6 {
 p,
 li {
   font-size: var(--p-size);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+li {
+  color: var(--main-text);
 }

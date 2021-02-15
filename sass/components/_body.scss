@@ -12,6 +12,8 @@ body {
   align-items: center;
   background-color: var(--main-bg-color1);
 
+  font-family: "IBM Plex Sans", sans-serif;
+
   @media (min-width:$small-screen-width) {
     padding: 0 3rem;
   }

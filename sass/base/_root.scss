@@ -6,7 +6,7 @@
   --main-bg-color1: #222831;
   --main-bg-color2: #2d383f;
   --border-color: #f2a365;
-  font-size: 16px;
+
   // --h1-size: 5rem;
   --h1-size: 4.375rem;
   --h2-size: 4rem;
@@ -17,8 +17,9 @@
   --p-size: 1rem;
 
 
+  font-size: 16px;
 
-  @media(max-width:800px) {
-    font-size: 14px;
-  }
+  // @media(max-width:800px) {
+  //   font-size: 14px;
+  // }
 }
