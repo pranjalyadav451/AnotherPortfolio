@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
   font-weight: $font-weight-regular;
+  font-family: "IBM Plex Sans",
+    sans-serif;
+  color: var(--main-text);
 }
 
 a {
@@ -42,14 +45,9 @@ li {
   font-size: var(--p-size);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
+
 a,
-p,
-li {
-  color: var(--main-text);
+button {
+  color: var(--accent-color);
+  cursor: pointer;
 }

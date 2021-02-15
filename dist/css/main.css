@@ -5,9 +5,13 @@
   --main-font: "IBM Plex Sans";
   --main-text: #fff;
   --accent-color: coral;
+  --border-color: coral;
   --main-bg-color1: #222831;
   --main-bg-color2: #2d383f;
-  --border-color: #f2a365;
+  --nav-bg-color: #191d22;
+  --btn-bg-hover: #191d22;
+  --btn-bg-color: #222831;
+  --btn-color-hover: #fff;
   --h1-size: 4.375rem;
   --h2-size: 4rem;
   --h3-size: 3.125rem;
@@ -24,6 +28,8 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-weight: 400;
+  font-family: "IBM Plex Sans", sans-serif;
+  color: var(--main-text);
 }
 
 a {
@@ -63,16 +69,10 @@ li {
   font-size: var(--p-size);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
 a,
-p,
-li {
-  color: var(--main-text);
+button {
+  color: var(--accent-color);
+  cursor: pointer;
 }
 
 html {
@@ -94,7 +94,6 @@ body {
       -ms-flex-align: center;
           align-items: center;
   background-color: var(--main-bg-color1);
-  font-family: "IBM Plex Sans", sans-serif;
 }
 
 @media (min-width: 1050px) {
@@ -120,7 +119,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   z-index: 100;
-  background-color: var(--main-bg-color1);
+  background-color: var(--nav-bg-color);
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
@@ -176,7 +175,7 @@ body {
 
 @media screen and (min-width: 1600px) {
   .main-wrapper {
-    width: 1600px;
+    width: 1440px;
   }
 }
 
@@ -217,8 +216,8 @@ body {
 }
 
 #profile-pic img {
-  width: 600px;
-  height: 400px;
+  width: 500px;
+  height: 333.33333;
   -o-object-fit: contain;
      object-fit: contain;
   margin: auto;
@@ -268,7 +267,7 @@ body {
 }
 
 #skills-list li {
-  font-weight: 200;
+  font-weight: 400;
 }
 
 #skills-list li i {
@@ -340,7 +339,7 @@ body {
 
 @media (min-width: 1600px) {
   #projects-wrapper {
-    width: 1600px;
+    width: 1440px;
   }
 }
 
@@ -384,22 +383,36 @@ body {
 }
 
 #project-list .project .btns {
-  margin-top: auto;
-  margin-bottom: 1rem;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 60%;
+  height: 100%;
 }
 
 #project-list .project .btns .btn {
-  background: var(--main-bg-color1);
+  font-weight: 500;
   padding: .5rem 1rem;
-  border-color: var(--main-bg-color2);
+  color: var(--accent-color);
+  background: var(--btn-bg-color);
+  border: 2px solid var(--border-color);
   border-radius: 5px;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+
+#project-list .project .btns .btn:hover, #project-list .project .btns .btn:active {
+  background: var(--btn-bg-hover);
+  color: var(--btn-color-hover);
 }
 
 footer {
