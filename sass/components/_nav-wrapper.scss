@@ -31,6 +31,10 @@
       li {
         padding-right: 1rem;
       }
+
+      li:nth-child(3) {
+        padding: 0;
+      }
     }
   }
 }

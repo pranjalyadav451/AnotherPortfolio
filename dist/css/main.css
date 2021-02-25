@@ -150,6 +150,10 @@ body {
   padding-right: 1rem;
 }
 
+.nav-wrapper .nav-links-wrapper ul li:nth-child(3) {
+  padding: 0;
+}
+
 @media (min-width: 1600px) {
   .nav-wrapper {
     width: 1600px;
